@@ -4,10 +4,10 @@
  *
  *  Bus        SDA               SCL
  *          Pin   Hdr         Pin   Hdr
- *  i2c1    PB9   CN10:5      PB8   CN10:3
- *  i2c2    PA12  CN10:12     PA11  CN10:14
+ *  i2c1    PB9   CN7:4      PB8   CN7:2
+ *  i2c2    PB11  CN10:34    PB10  CN10:32
  *
- * Short Pin PB9 to PA12, and PB8 to PA11, for the test to pass.
+ * Short Pin PB9 to PB11, and PB8 to PB10, for the test to pass.
  */
 
 &i2c1 {
@@ -17,7 +17,6 @@
 		size = <1024>;
 	};
 };
-
 
 &i2c2 {
 	eeprom1: eeprom@56 {
