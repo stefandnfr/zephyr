@@ -21,8 +21,8 @@ manifest:
   remotes:
     - name: upstream
       url-base: https://github.com/zephyrproject-rtos
-    - name: google
-      url-base: https://github.com/tensorflow
+    - name: stefandnfr
+      url-base: https://github.com/stefandnfr
     - name: babblesim
       url-base: https://github.com/BabbleSim
 
@@ -306,8 +306,8 @@ manifest:
       revision: ffbf9c2a6ea2930b0ac7e3a37c7cd7f5c417d090
       path: modules/audio/sof
     - name: tflite-micro
-      remote: google
-      revision: c8079bb67847c610eabf0496e4da07224fea02e6
+      remote: stefandnfr
+      revision: ec3465540ae997eb48150a08687121f976167876
       path: modules/lib/tflite-micro
       repo-path: tflite-micro
     - name: tinycrypt
