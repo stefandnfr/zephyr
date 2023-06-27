@@ -307,7 +307,7 @@ manifest:
       path: modules/audio/sof
     - name: tflite-micro
       remote: stefandnfr
-      revision: ec3465540ae997eb48150a08687121f976167876
+      revision: c12754edc619b57578e0cfa35cfa7bb418145269
       path: modules/lib/tflite-micro
       repo-path: tflite-micro
     - name: tinycrypt
