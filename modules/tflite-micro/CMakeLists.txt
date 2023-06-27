@@ -81,6 +81,7 @@ zephyr_library_sources(
 	${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.cc
 	${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/slice.cc
 	${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/pack.cc
+	${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/elementwise.cc
 	# ${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc
 	# ${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/lstm_eval_common.cc
 	${TENSORFLOW_LITE_MICRO_DIR}/tensorflow/lite/micro/kernels/fully_connected_common.cc
