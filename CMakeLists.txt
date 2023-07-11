@@ -230,6 +230,10 @@ zephyr_compile_options($<$<COMPILE_LANGUAGE:CXX>:$<TARGET_PROPERTY:compiler-cpp,
 
 # @Intent: Obtain compiler specific flags for compiling under different ISO standards of C++
 if(CONFIG_CPP)
+  set(CONFIG_STD_CPP17 y)
+  unset(CONFIG_STD_CPP11)
+
+
   # From kconfig choice, pick a single dialect.
   # Kconfig choice ensures only one of these CONFIG_STD_CPP* is set.
   if(CONFIG_STD_CPP98)
